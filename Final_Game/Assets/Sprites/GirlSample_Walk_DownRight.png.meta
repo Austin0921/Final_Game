@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bd215d61b91292b4192ab3ed47b03d6e
+guid: 9b3696e93c2e51b4c9987d31d999727f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 60
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -150,8 +150,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b97c800f7124c049b8cebeb57a52563
-      internalID: 1805432721
+      spriteID: 6fdfa965ea938ed41a1c35b6d72a83ea
+      internalID: 1963310464
       vertices: []
       indices: 
       edges: []
@@ -171,8 +171,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b7125049662c8d4e9b06099f6563805
-      internalID: 351328065
+      spriteID: 633e3a5b460926649b75e8b65e9d24ab
+      internalID: 27437514
       vertices: []
       indices: 
       edges: []
@@ -192,8 +192,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1685b0e93b46aa34a90bdf64af6e2ab7
-      internalID: 1914188246
+      spriteID: 43195ff725f4dd84f808f693607c7aa3
+      internalID: 2091927483
       vertices: []
       indices: 
       edges: []
@@ -213,8 +213,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 505ba8c275f20744cb791a65b7111520
-      internalID: 2124020161
+      spriteID: 0345e052f1a1d224e86683599ac4f0d2
+      internalID: 990258912
       vertices: []
       indices: 
       edges: []
@@ -234,8 +234,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0601b579e3d0ca54bb08159e014e6c15
-      internalID: -881576631
+      spriteID: 0d0fd1b710e8a2d47a6f5caaf718ffd1
+      internalID: 491638349
       vertices: []
       indices: 
       edges: []
@@ -255,8 +255,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a778419b84ef5c84684a5b0c61184193
-      internalID: -1358718158
+      spriteID: 61d047824fdbfcd44b7134be82e94335
+      internalID: -642161034
       vertices: []
       indices: 
       edges: []
@@ -276,8 +276,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76a6243aed309cb40877ab33a5c2a9bb
-      internalID: 1919986807
+      spriteID: 6739c4e71f68a5b43a5ab8882e880410
+      internalID: 1617783426
       vertices: []
       indices: 
       edges: []
@@ -297,8 +297,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b4dc7a9cea680548b563f8c5ed538e5
-      internalID: -1184191768
+      spriteID: 57e18f0984d4b9446b48e6d143cf99d6
+      internalID: -1493824253
       vertices: []
       indices: 
       edges: []
@@ -318,8 +318,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9271962df464ef34a9e7bc08907ade5c
-      internalID: 258352609
+      spriteID: 581d8738f8790dc4ba8cb3988dd6cd43
+      internalID: 1741377633
       vertices: []
       indices: 
       edges: []
@@ -335,15 +335,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      GirlSample_Walk_DownRight_0: 1805432721
-      GirlSample_Walk_DownRight_1: 351328065
-      GirlSample_Walk_DownRight_2: 1914188246
-      GirlSample_Walk_DownRight_3: 2124020161
-      GirlSample_Walk_DownRight_4: -881576631
-      GirlSample_Walk_DownRight_5: -1358718158
-      GirlSample_Walk_DownRight_6: 1919986807
-      GirlSample_Walk_DownRight_7: -1184191768
-      GirlSample_Walk_DownRight_8: 258352609
+      GirlSample_Walk_DownRight_0: 1963310464
+      GirlSample_Walk_DownRight_1: 27437514
+      GirlSample_Walk_DownRight_2: 2091927483
+      GirlSample_Walk_DownRight_3: 990258912
+      GirlSample_Walk_DownRight_4: 491638349
+      GirlSample_Walk_DownRight_5: -642161034
+      GirlSample_Walk_DownRight_6: 1617783426
+      GirlSample_Walk_DownRight_7: -1493824253
+      GirlSample_Walk_DownRight_8: 1741377633
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

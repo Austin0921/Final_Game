@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b4fc38812e743d642a893abd1b2e0ab5
+guid: ddf8b1bb3f3643e40bb6f7e1eeb85553
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -134,28 +134,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: concrete ground_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 257
-        height: 129
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 84830438968efe943a3de30b78f911e6
-      internalID: -490850927
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -166,8 +145,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      concrete ground_0: -490850927
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
