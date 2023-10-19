@@ -2,17 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraMovement : MonoBehaviour
-{
-    [SerializeField] private Transform target;
-    Vector3 camOffset;
-    void Start()
-    {
-        camOffset = transform.position - target.position;
-    }
+//public class CameraMovement : MonoBehaviour
+//{
+//    [SerializeField] private Transform target;
+//    Vector3 camOffset;
+//    void Start()
+//    {
+//        camOffset = transform.position - target.position;
+//    }
 
-    private void FixedUpdate()
-    {
-        transform.position = target.position + camOffset;
-    }
-}
+//    private void FixedUpdate()
+//    {
+//        transform.position = target.position + camOffset;
+//    }
+//}
