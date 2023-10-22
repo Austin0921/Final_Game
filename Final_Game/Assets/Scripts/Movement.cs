@@ -10,8 +10,12 @@ public class Movement : MonoBehaviour
     float hInput, vInput;
     private Vector3 direction;
 
+    [SerializeField] private AudioSource jumpeffect;
+
     private void Update()
     {
+        
+
         //float horizontal = Input.GetAxisRaw("Horizontal");
         //float vertical = Input.GetAxisRaw("Vertical");
 
@@ -28,6 +32,7 @@ public class Movement : MonoBehaviour
     }
     private void FixedUpdate()
     {
+        
         this.transform.position += direction * speed * Time.deltaTime;
     }
     void AnimateMovement(Vector3 direction)
