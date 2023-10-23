@@ -10,7 +10,6 @@ public class Movement : MonoBehaviour
     float hInput, vInput;
     private Vector3 direction;
 
-    [SerializeField] private AudioSource jumpeffect;
 
     private void Update()
     {
