@@ -12,8 +12,9 @@ public class MenuEvent : MonoBehaviour
     public AudioMixer mixer;
     private float value;
 
-    private void Update()
+    private void Start()
     {
+        Time.timeScale = 1;
         mixer.GetFloat("Volume", out value);
         volumeSlider.value = value;
     }
