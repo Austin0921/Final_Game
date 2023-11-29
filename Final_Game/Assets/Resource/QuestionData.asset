@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee7cd08362e5b12498f34ec5cb6279bf, type: 3}
+  m_Name: QuestionData
+  m_EditorClassIdentifier: 
+  questions:
+  - questionInfo: 'Sino Ako '
+    questionType: 0
+    qustionImg: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+    option:
+    - Jose
+    - Austin
+    - Jc
+    - Cyril
+    correctAns: Austin
+  - questionInfo: 'Ilan Taon nako '
+    questionType: 0
+    qustionImg: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+    option:
+    - 18
+    - 20
+    - 23
+    - 22
+    correctAns: 22
+  - questionInfo: Taga saan ako
+    questionType: 0
+    qustionImg: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+    option:
+    - Jan Lang
+    - Bacoor
+    - Gentri
+    - Dasma
+    correctAns: Dasma
+  - questionInfo: Ano Year Kona
+    questionType: 0
+    qustionImg: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+    option:
+    - Drop Out
+    - 4th Year
+    - 2nd Year
+    - 'Hulaan mo '
+    correctAns: 4th Year
+  - questionInfo: 'Ano ginagawa ko '
+    questionType: 0
+    qustionImg: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+    option:
+    - Capstone
+    - Pang sakit ulo
+    - Project
+    - Assignment
+    correctAns: Capstone

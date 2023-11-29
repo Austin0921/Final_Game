@@ -13,13 +13,21 @@ public class PlayerManager : MonoBehaviour
     int characterIndex;
     public CinemachineVirtualCamera VCam;
     public GameObject pauseMenuScreen;
+    //public GameObject GameMenu;
 
+
+    //void Start()
+    //{
+    //    GameObject prefabInstance = Instantiate(GameMenu);
+    //    Transform childTransform = prefabInstance.transform.Find("GameMenu");
+
+    //}
     public void Awake()
     {
         characterIndex = PlayerPrefs.GetInt("SelectedCharacter", 0);
         GameObject Player = Instantiate(playerPrefabs[characterIndex],lastCheckPointPos,Quaternion.identity);
         VCam.m_Follow = Player.transform;
-        GameObject.FindGameObjectWithTag("Player").transform.position = lastCheckPointPos;
+        //GameObject.FindGameObjectWithTag("Player").transform.position = lastCheckPointPos;
 
     }
     public void PauseGame()
@@ -36,5 +44,16 @@ public class PlayerManager : MonoBehaviour
     {
         SceneManager.LoadScene("Menu");
     }
+    //private void OnCollisionEnter2D(Collision2D collision)
+    //{
+    //    if (collision.gameObject.tag == "House")
+    //    {
+    //        GameMenu.SetActive(true);
+    //    }
+    //}
+
+
+
+
 
 }

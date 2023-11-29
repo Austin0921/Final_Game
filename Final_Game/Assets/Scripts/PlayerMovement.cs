@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -10,9 +11,19 @@ public class PlayerMovement : MonoBehaviour
  private Rigidbody2D rb = null;
  private float movementspeed = 5f;
  private Animator animator;
+ private GameObject GameMenu;
 
+
+    //public void Start()
+    //{
+    //    if (panel != null)
+    //    {
+    //        panel.SetActive(false); // For example, you can deactivate the panel at the start.
+    //    }
+    //}
     private void Awake()
     {
+       
         input = new CustomInput(); 
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
@@ -55,6 +66,15 @@ public class PlayerMovement : MonoBehaviour
     private void OnMovementCancelled(InputAction.CallbackContext value)
     {
         moveVec = Vector2.zero;
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+
+
+        if (collision.gameObject.tag == "House")
+        {
+            GameMenu.SetActive(true);
+        }
     }
 
 }
